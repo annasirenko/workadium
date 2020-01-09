@@ -1,0 +1,64 @@
+@import url('./fonts.css');
+@import url('./normalize.css');
+
+
+body {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+  html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper{
+  height: 100%;
+  width: 100%;
+  background: url("../img/aso6syjzgps-hannah-wei.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+
+.main__content{
+  display: flex;
+  
+}
+.main__logo{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 299px;
+padding-right: 10px;
+}
+
+.main__button{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 250px;
+padding-top: 30px;
+padding-right: 250px;
+}
+.main__button-send{
+font-size: 12px;
+font-weight: 700;
+color: #ec1e79;
+width: 182px;
+height: 44px;
+border: 3px solid #ec1e79;
+align-items: center;
+text-transform: uppercase;
+background-color: transparent;
+}
+
+.main__button-send:hover{
+  background-color: #ec1e79;
+  cursor: pointer;
+  color: #ffff;
+}

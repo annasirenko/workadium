@@ -1,0 +1,63 @@
+
+.partners__container{
+    width: 881px;
+    /* margin-top: 20px; */
+  }
+  
+  .partners__title {
+    color: #221f1f;
+    font-family: "Gotham Pro";
+    font-size: 49px;
+    font-weight: 700;
+    letter-spacing: 1.47px;
+    margin-bottom: 35px;          
+  }
+  
+  .partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    min-height: 175px; 
+    padding-right: 40px;
+    
+  }
+  
+  li.partners__card{
+    margin-bottom: 40px;
+    /* justify-content: flex-start; */
+    /* margin-right: 30px; */
+  }
+  .partners__card{
+    /* width: 278px;
+    display: flex;
+    align-items: center; */
+    flex: 1 0 260px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 64px;
+    transition: filter .3s ease-out;
+  }
+  
+  .partner__logo{
+    /* display: block; */
+    width: 225 px;
+    min-height: 41px;
+  }
+  
+  .partner__logo--icon{
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+  
+    
+  }
+  
+  .partner__logo{
+    filter: grayscale(100%);
+  }
+  .partner__logo:hover{
+    filter:grayscale(0);
+  }
+  

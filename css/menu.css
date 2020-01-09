@@ -1,0 +1,70 @@
+.menu__item{
+    list-style: none;
+    margin-bottom: 33px;
+    }
+  
+  .menu__item:last-child{
+    margin-bottom: 0;
+  }
+  .menu__link{
+    font-weight: bold;
+    font-size: 12px;
+    color: #ec1e79;
+    text-decoration: none;
+    /* margin-left: 10px; */
+    /* line-height: 4.5; */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    display: flex;
+    
+  }
+  
+  .menu__link:hover{
+    color: #000;
+  }
+  .menu__link:before{
+    content: "";    width: 20px;
+    height: 18px;
+    margin-right: 17px;
+    vertical-align: bottom;
+    background: no-repeat center center;
+  }
+  
+  .menu__link--main:before {
+    background-image: url('../img/main_icon.png')
+  }
+  
+  .menu__link--comments:before {
+    background-image: url('../img/feed_icon.png')
+  }
+  
+  .menu__link--tarriffs:before {
+    background-image: url('../img/wallet_icon.png')
+  }
+  
+  .menu__link--comments:hover:before{
+    background-image: url('../img/feed_icon-black.png')
+  
+  }
+  
+  .menu__link--tarriffs:hover:before{
+    background-image: url('../img/wallet_icon-black.png')
+  }
+  
+  .menu__link--active{
+    color: #000;
+    text-decoration: underline;
+    
+  }
+    
+  
+  .menu__link:hover{
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .menu-icon{
+    background: no-repeat;
+    display: flex;
+  }
+  

@@ -1,0 +1,54 @@
+
+.header {
+  background: #27273e;
+  margin-bottom: 24px;
+}
+.container {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.header__container {
+  /* position: relative; */
+  min-height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.logo {
+  /* position: absolute; */
+  top: 13px;
+  left: 19px;
+}
+
+.contacts {
+  /* position: absolute; */
+  top: 22px;
+  right: 19px;
+  text-align: right;
+  font-style: normal;
+}
+
+.contacts__phone {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.contacts__schedule {
+  color: #b12167;
+  opacity: 0.7;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.banner__image {
+  max-width: 100%;
+  display: flex;
+  }
